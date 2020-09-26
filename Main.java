@@ -11,6 +11,14 @@ class Main {
     }else{ 
       System.out.println("I am still" + myAge + "years old");
 
+      if(myBirthday==todaysDate)
+    {
+      myAge ++1
+      System.out.println("I am " + myAge + " years old. ");
+    }else{ 
+      System.out.println("I am still" + myAge + "years old");
+
+
 
     System.out.println("I am " + myAge + " years old. ");
     }
