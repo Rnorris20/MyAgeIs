@@ -4,11 +4,15 @@ class Main {
     int myBirthday = 06;
     int todaysDate = 26;
     
-    if(age==15)
+    System.out.println( myBirthday == todaysDate );
+    if(myAge==15)
     {
-      System.out.println("You are 15 years old ");
-  }else{
-     System.out.println("You are not 15 years old ");
+      System.out.println("You were " + myBirthday );
+    }else{ 
+      System.out.println("I am still" + myAge + "years old");
+
+
     System.out.println("I am " + myAge + " years old. ");
+    }
   }
 }
